@@ -1,0 +1,15 @@
+*{
+            
+    color: darkblue;
+}
+
+p{
+    background-color: cadetblue
+}
+p span{
+    color: darkgreen;
+}
+
+#span1{
+    color: darkmagenta;
+}

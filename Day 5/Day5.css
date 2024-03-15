@@ -1,0 +1,31 @@
+#div1{
+    background-color: rgb(200, 200, 200);
+}
+#div2{
+    background-color: rgb(35,62,173);
+}
+#div3{
+    background-color: rgb(173, 35, 111);
+}
+#div4{
+    background-color: #fcc2aa;
+}
+#div5{
+    background-color: #6bb807;
+}
+#div6{
+    background-color: #b324b3;
+}
+
+#div7{
+    background-color: rgba(255, 0, 0, 0.15);
+}
+#div8{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+#div9{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+#div10{
+    background-color: rgba(255, 0, 0, 1);
+}

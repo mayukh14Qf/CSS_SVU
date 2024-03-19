@@ -1,31 +1,39 @@
 #div1{
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(224, 166, 79);
 }
 #div2{
-    background-color: rgb(35,62,173);
+    background-color: rgb(230, 125, 28);
 }
 #div3{
-    background-color: rgb(173, 35, 111);
+    background-color: rgb(17, 130, 128);
 }
 #div4{
-    background-color: #fcc2aa;
+    background-color: #90c055;
 }
 #div5{
-    background-color: #6bb807;
+    background-color: #eb05a6 ;
 }
 #div6{
-    background-color: #b324b3;
+    background-color: #4fe064;
 }
 
 #div7{
-    background-color: rgba(255, 0, 0, 0.15);
+    background-color: rgba(255, 0, 0, 0.1);
 }
 #div8{
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: rgba(255, 0, 0,0.5 );
 }
 #div9{
     background-color: rgba(255, 0, 0, 0.7);
 }
 #div10{
     background-color: rgba(255, 0, 0, 1);
+}
+#label1{
+    color: cadetblue;
+    background-color: black;
+}
+#school{
+    color: chartreuse;
+    background-color: black;
 }

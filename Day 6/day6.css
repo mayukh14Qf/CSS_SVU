@@ -21,7 +21,7 @@ span{
     height: 200px;
     width: 200px;
     background-image: url(demo.jpg);
-    background-size: contain;
+    background-size:contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
 }

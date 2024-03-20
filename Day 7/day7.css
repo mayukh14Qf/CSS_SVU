@@ -1,0 +1,57 @@
+.box{
+    height: 100px;
+    width: 100px;
+}
+#box1{
+    background-color: rgba(255, 100, 190,1);
+}
+#box2{
+    background-color: rgba(255, 100, 190,0.8);
+}
+#box3{
+    background-color: rgba(255, 100, 190,0.6);
+}
+#box4{
+    background-color: rgba(255, 100, 190,0.4);
+    visibility: hidden;
+}
+#box5{
+    background-color: rgba(255, 100, 190,0.25);
+}
+#box6{
+    background-color: rgba(255, 100, 190,0.14);
+}
+#pic{
+    height: 1000px;
+    width: 1500px;
+    background-color: rgb(54, 118, 208);
+    background-image: url(demo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    /* background-blend-mode:multiply; */
+    opacity: 1;
+
+}
+#textpos{
+    height: 300px;
+    width: 300px;
+    background-color: darkkhaki;
+    text-align:right;
+}
+#hi{
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-decoration: overline;
+}
+h5{
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}

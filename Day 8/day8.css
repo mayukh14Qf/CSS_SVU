@@ -1,0 +1,57 @@
+#outer{
+    height: 500px;
+    width: 500px;
+    background-color: palevioletred;
+}
+#inner{
+    height: 200px;
+    width: 300px;
+    background-image: url(demo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    mix-blend-mode: multiply;
+}
+#under{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+#over{
+    text-decoration: overline;
+    text-decoration-style: wavy;
+}
+#col{
+    text-decoration: underline;
+    text-decoration-style:dotted;
+    text-decoration-color: crimson;
+    color: darkblue;
+}
+#shape{
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: indianred;
+}
+#size1{
+    font-size: 10px;
+}
+#size2{
+    font-size: 20px;
+}
+#size3{
+    font-size: 40px;
+}
+#size4{
+    font-weight: 400;
+}
+#size5{
+    font-weight: 600;
+}
+#size6{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#style1{
+    font-style: italic;
+    line-height: 30px;
+}

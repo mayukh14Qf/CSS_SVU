@@ -1,0 +1,74 @@
+#outer{
+    height: 400px;
+    width: 315px;
+    background-color: violet;
+}
+#inner-1{
+    height: 120px;
+    width: 300px;
+    background-color: indigo;
+}
+#inner-2{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
+#inner-3{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+}
+.inner-inner{
+    height: 80px;
+    width: 75px;
+    display: inline-block;
+}
+#inner-1-1{
+    background-color: yellow;
+}
+#inner-1-2{
+    background-color: orangered;
+}
+#inner-1-3{
+    background-color: red;
+}
+
+#linear1{
+    height: 200px;
+    width: 600px;
+    background-color: red;
+    background-image: linear-gradient(to bottom ,red,yellow);
+}
+#linear2{
+    height: 200px;
+    width: 600px;
+    background-color: red;
+    background-image: linear-gradient(to top,red,yellow);
+}
+#linear3{
+    height: 200px;
+    width: 600px;
+    background-color: red;
+    background-image: linear-gradient(to right,red,yellow);
+}
+#linear4{
+    height: 200px;
+    width: 600px;
+    background-color: red;
+    background-image: linear-gradient(36deg,red,yellow);
+}
+#linear4{
+    height: 200px;
+    width: 600px;
+    background-image: linear-gradient(40deg,orangered ,white,green);
+}
+#rainbow{
+    height: 200px;
+    width: 600px;
+    background-image: linear-gradient(40deg,violet,indigo,blue,green,yellow,orangered,red);
+}
+#multiple{
+    height: 200px;
+    width: 600px;
+    background-image: linear-gradient(red ,blue , green )
+}

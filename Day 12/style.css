@@ -1,0 +1,45 @@
+.gradient-1{
+    height: 200px;
+    width: 400px;
+}
+/* Linear Gradient */
+
+#box1{
+    background-image: linear-gradient(56deg,rgb(59, 150, 73),pink,yellow);
+}
+
+/* Radial Gradient */
+
+#box2{
+    background-image: radial-gradient(orangered,white,green);
+}
+/* As a circle */
+#box3{
+    background-image: radial-gradient(circle,cyan,rgb(228, 231, 16),violet,white);
+}
+/* Conic Gradient */
+
+#box4{
+    background-image:conic-gradient(yellow,rgb(105, 105, 146) 50%,orangered);
+}
+
+#box5{
+    background-image:conic-gradient(from 180deg,violet,indigo,blue,green,yellow,orangered,red);
+}
+
+#box6{
+    background-image: radial-gradient(rgb(124, 76, 158),rgba(217, 123, 123, 0.695),cyan,white);
+    opacity: 1;
+}
+
+/* Font Family */
+#p1{
+    font-family: "Workbench", sans-serif;
+}
+#p2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#range1{
+    accent-color:yellow;
+    width: 400px;
+}

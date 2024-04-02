@@ -4,6 +4,13 @@
     text-align: center;
     background-image: linear-gradient(red,yellow);
     color: aliceblue;
+    margin-top: 20px;
+}
+#outer{
+    height: 200px;
+    width: 200px;
+    background-color: indianred;
+    border: 2px solid;
 }
 .box{
     height: 300px;

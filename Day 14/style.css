@@ -1,0 +1,38 @@
+.box{
+    height: 400px;
+    width: 400px;
+}
+#box1{
+    background-color: darkorchid;
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+}
+#box2{
+    background-image: linear-gradient(orangered,green);
+    clip-path: ellipse(34% 20% at 20% 49%);
+    border: 2px solid black;
+}
+#box3{
+    background-image: radial-gradient(rgb(156, 102, 195),rgb(86, 172, 193));
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+img{
+    width: 350px;
+    height: 350px;
+    clip-path: polygon(18% 33%, 80% 0%, 86% 75%, 41% 68%);
+}
+video{
+    height: 300px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.p1{
+    background-color: chocolate;
+}
+/* .p2{
+    color: blue;
+} */
+.p3{
+    background-color: crimson;
+}
+.p4{
+    font-size: 40px;
+}

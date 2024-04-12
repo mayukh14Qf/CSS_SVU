@@ -1,0 +1,56 @@
+:root{
+    font-size: 16px;
+}
+#parent-1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(207, 197, 49);
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+#child-1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(75, 37, 157);
+    font-size: 1.5rem;
+}
+#view-1{
+    height: 50vh;
+    width: 50vw;
+    background-image: linear-gradient(48deg,chocolate,red);
+}
+#hover-1{
+    height: 100px;
+    width: 300px;
+    border: 2px dashed green;
+}
+
+#hover-1:hover{
+    height: 100px;
+    width: 150px;
+    background-color: crimson;
+    border-style: solid;
+    cursor: pointer;
+}
+#active-1{
+    height: 100px;
+    width: 300px;
+    border: 2px dashed green;
+}
+#active-1:active{
+    height: 100px;
+    width: 150px;
+    background-color: crimson;
+    border-style: solid;
+}
+/* Un-visited */
+a:link{
+    color: blueviolet;
+}
+/* Visited */
+a:visited{
+    color: rgb(218, 21, 149);
+}
+a:hover{
+    color: darkorange;
+}

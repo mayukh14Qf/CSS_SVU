@@ -1,0 +1,44 @@
+body{
+    background-color: #d5f5e3;
+}
+h2{
+    color: red;
+}
+img{
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+#logo-heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#content-1{
+    height: 500px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+}
+.pics{
+    height: 200px;
+    width: 250px;
+}
+#content-2{
+    height:500px ;
+    width: 600px;
+    margin-left: 40px;
+    display: inline-block;
+
+}
+#end-greeting{
+    text-align: center;
+}
+#end-greeting button{
+    font-weight: 700;
+    height: 30px;
+    background-image: linear-gradient(to right,red,white,yellow,green);
+    border-radius: 50px;
+}
+

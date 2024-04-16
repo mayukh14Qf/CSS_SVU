@@ -1,0 +1,38 @@
+/* body{
+    background-image: radial-gradient(circle,yellow,blue,red);
+} */
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+#box1{
+    background-color: chocolate;
+    z-index: 3;
+    position: relative;
+}
+#box2{
+    background-color: deepskyblue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+#box3{
+    background-color: crimson;
+    z-index: 0;
+    position: relative;
+}
+#p1{
+    font-size: 20px;
+    text-shadow: 2px 3px 3px red,0px -2px 4px blue;
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: auto;
+
+    box-shadow: 10px 10px 50px 5px red,-10px -10px 50px 5px rgb(91, 185, 8);
+}

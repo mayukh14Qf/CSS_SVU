@@ -1,0 +1,50 @@
+#box1{
+    height: 300px;
+    width: 500px;
+    background-color: coral;
+    border: 2px solid black;
+    /* overflow:hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+/* Flex Box */
+
+#container{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(232, 164, 139);
+    border: 2px solid black;
+    margin: 60px;
+    margin-left: 100px;
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+
+    /* overflow: auto; */
+}
+.child{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child1{
+    background-color: yellowgreen;
+}
+#child2{
+    background-color: darkcyan;
+}
+#child3{
+    background-color: darkolivegreen;
+}
+#child4{
+    background-color: deeppink;
+}

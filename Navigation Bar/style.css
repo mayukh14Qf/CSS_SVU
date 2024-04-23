@@ -37,7 +37,7 @@ ul li .dropdown {
     background:#c327b1;
     position:absolute;
     z-index: 999;
-    /* display: none; */
+    display: none;
 }
 ul li a:hover{
     background-color: #6d30e9;

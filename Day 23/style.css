@@ -6,7 +6,7 @@ img{
     height: 80vh;
     width: 80vw;
     border: 2px solid black;
-
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content:space-evenly;

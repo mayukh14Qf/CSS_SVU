@@ -1,0 +1,74 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+
+#image-1{
+    height: 600px;
+    width: 1200px;
+    /* border: 5px dotted black; */
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px 10px yellow,-5px -5px 10px 10px rgb(230, 244, 34);
+
+    /* Transition */
+
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: ease-out;
+
+    /* Flex */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#image-1:hover{
+    box-shadow: 5px 5px 10px 10px rgb(69, 218, 128),-5px -5px 10px 10px rgb(208, 87, 22);
+}
+#riruru-img{
+    /* box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.6); */
+    filter: drop-shadow(10px 10px 15px rgba(44, 120, 182, 0.8));
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+#riruru-img:hover{
+    filter: grayscale(100);
+    /* filter: blur(10px);   */
+}
+#riruru-img:active{
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.6);
+    filter: drop-shadow(0px 0px 0px);
+    /* background-color: blueviolet; */
+}
+#tom-jerry-img{
+    /* box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.6); */
+    filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.8));
+    /* Transition */
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#tom-jerry-img:hover{
+    filter: drop-shadow(5px 10px 15px rgba(229, 18, 18, 0.8));
+}
+#tom-jerry-img:active{
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.6);
+    filter: drop-shadow(5px 10px 15px rgba(180, 14, 174, 0.8));
+    height:400px;
+    width: 400px;
+}
+#death-note-img{
+    filter: blur(30px);
+    /* Transition */
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+#death-note-img:active{
+    filter: blur(0px);
+    height:400px;
+    width: 400px;
+}
+
